@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="116px"
+    height="116px" viewBox="0 0 116 116" version="1.1">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>industrial_automation_icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="09_Homepage" transform="translate(-644.000000, -2011.000000)" stroke-width="2">
+            <g id="industrial_automation_icon" transform="translate(640.000000, 2007.000000)">
+                <g id="Icon/Industrial-Automation" transform="translate(21.740260, 21.740260)">
+                    <rect id="Rectangle-Copy-9" stroke="#979797" opacity="0" x="1" y="1"
+                        width="78.5194805" height="78.5194805" rx="2.00400003" />
+                    <path
+                        d="M11.8701299,61.6187707 L11.8701299,68.1125541 L39.2597403,68.1125541 L39.2597403,42.6017316 L23.9013178,42.6017316 L11.8701299,61.6187707 Z"
+                        id="Path-30" stroke="#090E34" fill="#FFFFFF" />
+                    <path
+                        d="M19.6382172,7.44155844 L19.2770199,21.5454545 L48.061264,21.5454545 C49.7225366,21.5454545 51.0692641,20.198727 51.0692641,18.5374545 L51.0692641,10.4495585 C51.0692641,8.78828594 49.7225366,7.44155844 48.061264,7.44155844 L19.6382172,7.44155844 Z"
+                        id="Rectangle" stroke="#090E34" fill="#FFFFFF" />
+                    <rect id="Rectangle" stroke="#090E34" fill="#FFFFFF" x="1" y="65.012987"
+                        width="78.1168831" height="10.4805195" rx="2" />
+                    <path
+                        d="M51.7272727,10.6623377 L51.7272727,18.3246753 L64.4155844,18.3246753 C66.5314805,18.3246753 68.2467532,16.6094026 68.2467532,14.4935065 C68.2467532,12.3776104 66.5314805,10.6623377 64.4155844,10.6623377 L51.7272727,10.6623377 Z"
+                        id="Rectangle" stroke="#090E34" fill="#FFFFFF" />
+                    <circle id="Oval" stroke="#090E34" cx="64.5497835" cy="14.4935065"
+                        r="3.83116883" />
+                    <polyline id="Path-31" stroke="#090E34" stroke-linecap="round"
+                        stroke-linejoin="round"
+                        points="60.9264069 35.8311688 57.3030303 27.7792208 72.1991342 27.7792208 69.3809524 35.8311688" />
+                    <path d="M64.7510823,27.7792208 L64.7510823,17.9349564" id="Path-32"
+                        stroke="#090E34" />
+                    <path
+                        d="M26.0903741,5.38465523 C22.0845165,5.38465523 18.8371273,8.63204442 18.8371273,12.637902 L18.8371273,43.2353046 C18.8371273,47.2411622 22.0845165,50.4885513 26.0903741,50.4885513 C30.0962317,50.4885513 33.3436209,47.2411622 33.3436209,43.2353046 L33.3436209,12.637902 C33.3436209,8.63204442 30.0962317,5.38465523 26.0903741,5.38465523 Z"
+                        id="Rectangle" stroke="#090E34" fill="#FFFFFF"
+                        transform="translate(26.090374, 27.936603) rotate(-30.000000) translate(-26.090374, -27.936603) " />
+                    <circle id="Oval" stroke="#9C513A" fill="#FFFFFF" cx="32.2077922"
+                        cy="40.3939394" r="9.06493506" />
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

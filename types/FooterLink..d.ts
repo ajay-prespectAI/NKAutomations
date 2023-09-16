@@ -7,5 +7,7 @@ declare namespace FooterNS {
   interface Services {
     linkHref: string;
     linkName: string;
+    description: string;
+    icon?: string;
   }
 }

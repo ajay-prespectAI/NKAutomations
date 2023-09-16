@@ -1,6 +1,7 @@
 import Image from "next/image";
 import email from "../../public/images/Email_Big.svg";
 import location from "../../public/images/Location.svg";
+import mobile from "../../public/images/Mobile.svg";
 
 const NewsLatterBox = () => {
   const locationCard = (imgSrc: string, header: string, content: string[]) => {
@@ -16,6 +17,8 @@ const NewsLatterBox = () => {
             width: "50px",
             height: "50px",
             marginBottom: "40px",
+            minWidth:'50px',
+            minHeight:'50px'
           }}
         >
           <Image
@@ -31,7 +34,7 @@ const NewsLatterBox = () => {
           />
         </div>
         <div>
-          <div className="font-24 text-body-primary mb-2 text-left text-base">
+          <div className="font-24 text-body-primary mb-2 text-left font-semibold">
             {header}
           </div>
           <div>
@@ -56,13 +59,16 @@ const NewsLatterBox = () => {
       className="wow fadeInUp relative z-10 rounded-md bg-primary/[3%] p-8 dark:bg-primary/10 sm:p-11 lg:p-8 xl:p-11"
       data-wow-delay=".2s"
     >
-      <div className="w-100% flex flex-col gap-20">
-        {locationCard("/image/phone.svg", "Phone number", ["+91 9972926500"])}
+      <div className="w-100%  h-100% flex flex-col ">
+        {locationCard(mobile, "Phone number", [
+          "+91 99511 44114",
+          "+91 91009 99414",
+        ])}
         {locationCard(email, "Email", ["rajesh.cherukuri@zeits.in"])}
         {locationCard(location, "Address", [
-          "Plot No. D-52 , Phase-IV,",
-          "Road No. 72  Jeedimetla",
-          "Hyderabad-55, Telangana",
+          "Door No: 3-35/F,",
+          "CHILAKAPALEM ETCHERLA MANDAL SRIKAKULAM(DIST)",
+          "ANDHRA PRADESH - 532410 INDIA",
         ])}
       </div>
       <div className="absolute top-0 left-0 z-[-1]">

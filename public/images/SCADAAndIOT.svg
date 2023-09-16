@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="116px"
+    height="116px" viewBox="0 0 116 116" version="1.1">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>iot_icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="09_Homepage" transform="translate(-265.000000, -1907.000000)">
+            <g id="iot_icon" transform="translate(261.000000, 1903.000000)">
+                <g id="Icon/Iot" transform="translate(21.740260, 22.545455)">
+                    <rect id="Rectangle-Copy-15" stroke="#090E34" stroke-width="2.07999992"
+                        opacity="0" x="1.03999996" y="1.03999996" width="78.4394806"
+                        height="78.4394806" rx="1.99680004" />
+                    <circle id="Oval-Copy-24" stroke="#9C513A" stroke-width="2" fill="#FFFFFF"
+                        cx="45.4935065" cy="14.55934" r="4.36796537" />
+                    <circle id="Oval-Copy-25" stroke="#9C513A" stroke-width="2" fill="#FFFFFF"
+                        transform="translate(66.428571, 66.428571) rotate(-15.000000) translate(-66.428571, -66.428571) "
+                        cx="66.4285714" cy="66.4285714" r="3.6969697" />
+                    <circle id="Oval-Copy-26" stroke="#090E34" stroke-width="2" fill="#FFFFFF"
+                        transform="translate(23.218471, 66.648674) rotate(-15.000000) translate(-23.218471, -66.648674) "
+                        cx="23.2184712" cy="66.6486743" r="3.6969697" />
+                    <circle id="Oval-Copy-31" stroke="#090E34" stroke-width="2" fill="#FFFFFF"
+                        transform="translate(44.425014, 71.264841) rotate(-1.000000) translate(-44.425014, -71.264841) "
+                        cx="44.4250138" cy="71.2648406" r="7.05194805" />
+                    <path d="M43.7125292,38.2825057 L59.7104527,65.991722" id="Path"
+                        stroke="#090E34" stroke-width="2"
+                        transform="translate(51.712529, 52.282506) rotate(-15.000000) translate(-51.712529, -52.282506) " />
+                    <path d="M43.4049024,40.8534692 L40.1841232,63.9458485" id="Path-22-Copy"
+                        stroke="#090E34" stroke-width="2"
+                        transform="translate(41.794513, 52.399659) rotate(-15.000000) translate(-41.794513, -52.399659) " />
+                    <path d="M42.9745761,43.1225221 L22.9489551,60.6771956" id="Path-24-Copy"
+                        stroke="#090E34" stroke-width="2"
+                        transform="translate(32.961766, 51.899859) rotate(-15.000000) translate(-32.961766, -51.899859) " />
+                    <circle id="Oval-Copy-29" stroke="#9C513A" stroke-width="2" fill="#FFFFFF"
+                        cx="14.0909091" cy="24.5483133" r="3.6969697" />
+                    <circle id="Oval-Copy-30" stroke="#090E34" stroke-width="2" fill="#FFFFFF"
+                        cx="25.413961" cy="10.0775954" r="7.05194805" />
+                    <path d="M36.2337662,39.7026872 L27.7792208,17.0154374" id="Path-13-Copy"
+                        stroke="#090E34" stroke-width="2" />
+                    <path d="M36.2337662,38.4872989 L44.2597403,19.4545455" id="Path-14-Copy"
+                        stroke="#090E34" stroke-width="2" />
+                    <path d="M36.2337662,38.4872989 L17.4658816,27.4545455" id="Path-26-Copy"
+                        stroke="#090E34" stroke-width="2" />
+                    <path
+                        d="M61.6763711,35.9656119 L60.7409652,35.8575167 L60.7926758,34.9173067 C60.8013092,34.7603337 60.8056426,34.6026766 60.8056426,34.4444444 C60.8056426,29.8070565 57.0749984,26.0505051 52.476489,26.0505051 C51.3515998,26.0505051 50.2595357,26.2747863 49.246621,26.704671 L48.5778884,26.9884835 L48.101262,26.4402316 C45.1867188,23.0877025 40.9933759,21.1298701 36.4836543,21.1298701 C29.3546892,21.1298701 23.1997724,26.0395805 21.5023504,32.9139731 L21.3247519,33.63323 L20.5849518,33.6728241 C14.1337187,34.0180938 9.05194805,39.3623815 9.05194805,45.8513709 C9.05194805,52.5871727 14.5123944,58.047619 21.2481962,58.047619 L60.3896104,58.047619 C66.5077778,58.047619 71.4675325,53.0878644 71.4675325,46.969697 C71.4675325,41.3302747 67.2311569,36.6075207 61.6763711,35.9656119 Z"
+                        id="Combined-Shape" stroke="#090E34" stroke-width="2" fill="#FFFFFF" />
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

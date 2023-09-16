@@ -31,8 +31,8 @@ const Contact = () => {
               data-wow-delay=".15s
               "
             >
-              <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
-                {/* Need Help? Let's Talk */}
+              <h2 className="mb-3 text-2xl font-semibold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
+                Need Help? Let's Talk
               </h2>
               <p className="mb-12 text-base font-medium text-body-color">
                 Our support team will get back to you ASAP.
@@ -43,7 +43,7 @@ const Contact = () => {
                     <div className="mb-8">
                       <label
                         htmlFor="name"
-                        className="mb-3 block text-sm font-medium text-dark dark:text-white"
+                        className="mb-3 block text-sm font-semibold text-dark dark:text-white"
                       >
                         Your Name
                       </label>
@@ -60,7 +60,7 @@ const Contact = () => {
                     <div className="mb-8">
                       <label
                         htmlFor="email"
-                        className="mb-3 block text-sm font-medium text-dark dark:text-white"
+                        className="mb-3 block text-sm font-semibold text-dark dark:text-white"
                       >
                         Your Email
                       </label>
@@ -81,7 +81,7 @@ const Contact = () => {
                     <div className="mb-8">
                       <label
                         htmlFor="message"
-                        className="mb-3 block text-sm font-medium text-dark dark:text-white"
+                        className="mb-3 block text-sm font-semibold text-dark dark:text-white"
                       >
                         Your Message
                       </label>
@@ -116,6 +116,16 @@ const Contact = () => {
             <NewsLatterBox />
           </div>
         </div>
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15154.912956911325!2d83.79420589435556!3d18.268275550762016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sDoor%20No%3A%203-35%2FF%2C%20CHILAKAPALEM%2C%20ETCHERLA%20(MANDAL%20SRIKAKULAM(DIST)%20ANDHRA%20PRADESH-532410%20INDIA!5e0!3m2!1sen!2sin!4v1694875613725!5m2!1sen!2sin"
+          width="100%"
+          height="300"
+          style={{ border: 0, marginTop: "5rem" }}
+          allowFullScreen={false}
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
     </section>
   );
