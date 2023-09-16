@@ -1,3 +1,5 @@
+"use client";
+import { useTheme } from "next-themes";
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Blog from "@/components/Blog";
@@ -10,10 +12,17 @@ import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Inter } from "@next/font/google";
+import React from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  const { theme, setTheme } = useTheme();
+
+  React.useLayoutEffect(() => {
+    setTheme("light");
+  }, []);
+
   return (
     <>
       <ScrollUp />
