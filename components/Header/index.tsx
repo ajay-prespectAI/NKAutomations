@@ -54,7 +54,7 @@ const Header = () => {
                 }`}
               >
                 <Image
-                  src="/images/Logo1.jpg"
+                  src="/images/nkLogo.jpg"
                   alt="logo"
                   width={70}
                   height={70}

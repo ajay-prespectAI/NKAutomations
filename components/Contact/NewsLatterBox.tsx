@@ -4,9 +4,15 @@ import location from "../../public/images/Location.svg";
 import mobile from "../../public/images/Mobile.svg";
 
 const NewsLatterBox = () => {
-  const locationCard = (imgSrc: string, header: string, content: string[]) => {
+  const locationCard = (
+    imgSrc: string,
+    header: string,
+    content: string[],
+    wideSpace?: boolean,
+    allowCopy?: boolean
+  ) => {
     return (
-      <div className="flex flex-row gap-12">
+      <div className="flex flex-row ">
         <div
           style={{
             border: "2px solid #FBB040",
@@ -17,8 +23,8 @@ const NewsLatterBox = () => {
             width: "50px",
             height: "50px",
             marginBottom: "40px",
-            minWidth:'50px',
-            minHeight:'50px'
+            minWidth: "50px",
+            minHeight: "50px",
           }}
         >
           <Image
@@ -33,7 +39,7 @@ const NewsLatterBox = () => {
             }}
           />
         </div>
-        <div>
+        <div style={{ marginLeft: "16px" }}>
           <div className="font-24 text-body-primary mb-2 text-left font-semibold">
             {header}
           </div>
@@ -42,7 +48,12 @@ const NewsLatterBox = () => {
               return (
                 <div
                   key={index}
-                  className="font-16 text-body-primary mb-2 text-left text-base"
+                  className=" text-body-primary mb-2 text-left text-base"
+                  style={{
+                    wordBreak: wideSpace ? "break-all" : undefined,
+                    cursor: allowCopy ? "pointer" : "default",
+                    fontSize: "15px",
+                  }}
                 >
                   {each}
                 </div>
@@ -59,12 +70,18 @@ const NewsLatterBox = () => {
       className="wow fadeInUp relative z-10 rounded-md bg-primary/[3%] p-8 dark:bg-primary/10 sm:p-11 lg:p-8 xl:p-11"
       data-wow-delay=".2s"
     >
-      <div className="w-100%  h-100% flex flex-col ">
+      <div className="w-100% h-100% flex flex-col ">
         {locationCard(mobile, "Phone number", [
           "+91 99511 44114",
           "+91 91009 99414",
         ])}
-        {locationCard(email, "Email", ["rajesh.cherukuri@zeits.in"])}
+        {locationCard(
+          email,
+          "Email",
+          ["santhosh@nkautomationsolutions.com"],
+          true,
+          true
+        )}
         {locationCard(location, "Address", [
           "Door No: 3-35/F,",
           "CHILAKAPALEM ETCHERLA MANDAL SRIKAKULAM(DIST)",
@@ -134,8 +151,8 @@ const NewsLatterBox = () => {
               y2="41.5072"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="white" />
-              <stop offset="1" stopColor="white" stopOpacity="0" />
+              <stop stopColor="#1D2144" />
+              <stop offset="1" stopColor="#1D2144" stopOpacity="0" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_88:141"
@@ -145,8 +162,8 @@ const NewsLatterBox = () => {
               y2="464.391"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="white" />
-              <stop offset="1" stopColor="white" stopOpacity="0" />
+              <stop stopColor="#1D2144" />
+              <stop offset="1" stopColor="#1D2144" stopOpacity="0" />
             </linearGradient>
             <linearGradient
               id="paint2_linear_88:141"
@@ -156,8 +173,8 @@ const NewsLatterBox = () => {
               y2="200.004"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="white" />
-              <stop offset="1" stopColor="white" stopOpacity="0" />
+              <stop stopColor="#1D2144" />
+              <stop offset="1" stopColor="#1D2144" stopOpacity="0" />
             </linearGradient>
             <linearGradient
               id="paint3_linear_88:141"
@@ -167,8 +184,8 @@ const NewsLatterBox = () => {
               y2="89.9999"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="white" />
-              <stop offset="1" stopColor="white" stopOpacity="0" />
+              <stop stopColor="#1D2144" />
+              <stop offset="1" stopColor="#1D2144" stopOpacity="0" />
             </linearGradient>
             <linearGradient
               id="paint4_linear_88:141"
@@ -178,8 +195,8 @@ const NewsLatterBox = () => {
               y2="64.9999"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="white" />
-              <stop offset="1" stopColor="white" stopOpacity="0" />
+              <stop stopColor="#1D2144" />
+              <stop offset="1" stopColor="#1D2144" stopOpacity="0" />
             </linearGradient>
             <linearGradient
               id="paint5_linear_88:141"
@@ -189,8 +206,8 @@ const NewsLatterBox = () => {
               y2="73.9999"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="white" />
-              <stop offset="1" stopColor="white" stopOpacity="0" />
+              <stop stopColor="#1D2144" />
+              <stop offset="1" stopColor="#1D2144" stopOpacity="0" />
             </linearGradient>
             <linearGradient
               id="paint6_linear_88:141"
@@ -200,8 +217,8 @@ const NewsLatterBox = () => {
               y2="40.9999"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="white" />
-              <stop offset="1" stopColor="white" stopOpacity="0" />
+              <stop stopColor="#1D2144" />
+              <stop offset="1" stopColor="#1D2144" stopOpacity="0" />
             </linearGradient>
           </defs>
         </svg>

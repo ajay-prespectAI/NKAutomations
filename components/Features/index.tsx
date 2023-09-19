@@ -1,13 +1,20 @@
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
 import { services } from "../Utils/data";
+import Link from "next/link";
 
-const Features = () => {
+interface IProps {
+  marginTop?: string;
+}
+const Features: React.FC<IProps> = ({ marginTop }) => {
   return (
     <>
       <section
         id="features"
         className="bg-primary/[.03] py-16 md:py-20 lg:py-28"
+        style={{
+          marginTop,
+        }}
       >
         <div className="container">
           <SectionTitle
@@ -23,7 +30,7 @@ const Features = () => {
                   <div className="mb-10 flex h-[70px] w-[70px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
                     <Image
                       src={each.icon}
-                      alt={'alt'}
+                      alt={"alt"}
                       width={60}
                       height={60}
                       className="w-full dark:hidden"
@@ -34,7 +41,7 @@ const Features = () => {
                     />
                   </div>
                   <h3 className="mb-5 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                    {each.linkName}
+                    <Link href={each.linkHref}>{each.linkName}</Link>
                   </h3>
                   <p className="pr-[10px] text-base font-medium leading-relaxed text-body-color">
                     {each.description}

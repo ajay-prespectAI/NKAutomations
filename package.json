@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@next/font": "13.1.6",
+    "@tawk.to/tawk-messenger-react": "^2.0.2",
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6",
     "next": "13.1.6",
