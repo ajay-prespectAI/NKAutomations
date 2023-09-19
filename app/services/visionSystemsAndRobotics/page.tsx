@@ -1,5 +1,5 @@
 import React from "react";
-import AboutEachService from "@/components/AboutEachService/page";
+import AboutEachService from "@/components/AboutEachService/AboutEachService";
 
 function page() {
   return (

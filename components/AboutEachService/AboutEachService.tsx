@@ -2,12 +2,11 @@
 
 import React from "react";
 import { usePathname } from "next/navigation";
-import SectionTitle from "@/components/Common/SectionTitle";
 import { returnServiceDetailsBasedOnLinkHref } from "@/components/Utils/data";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import AboutSectionOne from "../About/AboutSectionOne";
 import Twak from "@/components/Tawk/page";
-function page() {
+function AboutEachService() {
   const pathname = usePathname();
   const serviceDetails = returnServiceDetailsBasedOnLinkHref(pathname);
 
@@ -32,4 +31,4 @@ function page() {
     </>
   );
 }
-export default page;
+export default AboutEachService;
