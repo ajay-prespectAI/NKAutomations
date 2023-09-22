@@ -28,6 +28,12 @@ import VisionSystemsRoboticsBanner from "../../public/images/VisionSystemsRoboti
 
 import industrialAutomationBanner from "../../public/images/IndustrialAutomationBanner.jpg";
 
+import sales1 from "../../public/images/sales/sales1.png";
+import sales2 from "../../public/images/sales/sales2.png";
+import sales3 from "../../public/images/sales/sales3.png";
+import sales4 from "../../public/images/sales/sales4.png";
+import sales5 from "../../public/images/sales/sales5.png";
+
 export const services: FooterNS.Services[] = [
   {
     linkHref: "/services/industrialAutomation",
@@ -252,11 +258,18 @@ export const services: FooterNS.Services[] = [
     ],
   },
   {
-    linkHref: "/services/Sales",
+    linkHref: "/services/sales",
     linkName: "Sales",
     description:
       "Let our expert sales support services propel your business forward. From training to consulting, we're dedicated to enhancing your sales performance.",
     icon: SalesIcon,
+    features: [
+      "We exhibit a proactive approach in our sales operations that mirrors the caliber of our services. Our product portfolio encompasses an array of cutting-edge automation solutions, including PLCs, HMI systems, VFDs, servos, CNC packages, and sensors.",
+      "In the realm of PLC-based automation, we proudly offer a selection of industry giants such as Siemens, Mitsubishi, Delta, Invt, Omron, Allen-Bradley, and ABB. These esteemed brands exemplify the pinnacle of reliability and innovation in the field.",
+      "For CNC packages, our offerings include renowned names like Fanuc, Siemens, Mitsubishi, Fagor, and Delta. These choices reflect our commitment to delivering precision and efficiency in machining processes.",
+      "In the domain of sensors, we collaborate with leading manufacturers such as Omron, Banner, Panasonic, and Autonics to ensure that our clients have access to the most advanced sensing technologies available. Your automation needs are met with the utmost expertise and sophistication.",
+    ],
+    carouselImages: [sales1, sales2, sales3, sales4, sales5],
   },
 ];
 

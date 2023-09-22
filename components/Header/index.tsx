@@ -50,27 +50,16 @@ const Header = () => {
               <Link
                 href="/"
                 className={`header-logo block flex w-full  ${
-                  sticky ? "py-5 lg:py-2" : "py-8"
-                }`}
+                  sticky ? "py-2" : "py-2"
+                }   exs:max-h-[90px]  exs:max-w-[90px] md:max-h-[90px] md:max-w-[140px] `}
               >
                 <Image
-                  src="/images/nkLogo.jpg"
-                  alt="logo"
-                  width={70}
-                  height={70}
-                  className="w-full dark:hidden"
-                  style={{
-                    width: "100px",
-                    height: "60px",
-                  }}
-                />
-                {/* <Image
-                  src="/images/Logo2.jpg"
+                  src="/images/logo_1.svg"
                   alt="logo"
                   width={140}
-                  height={30}
-                  className=" w-full dark:block  "
-                /> */}
+                  height={90}
+                  className=" w-full dark:hidden"
+                />
               </Link>
             </div>
             <div className="flex w-full items-center justify-end px-4">
@@ -111,7 +100,7 @@ const Header = () => {
                         {menuItem.path ? (
                           <Link
                             href={menuItem.path}
-                            className={`flex py-2 text-base text-dark group-hover:opacity-70 dark:text-White lg:mr-0 lg:inline-flex lg:py-6 lg:px-0 font-semibold`}
+                            className={`dark:text-White flex py-2 text-base font-semibold text-dark group-hover:opacity-70 lg:mr-0 lg:inline-flex lg:py-6 lg:px-0`}
                           >
                             {menuItem.title}
                           </Link>
@@ -153,23 +142,6 @@ const Header = () => {
                   </ul>
                 </nav>
               </div>
-              {/* <div className="flex items-center justify-end pr-16 lg:pr-0"> */}
-              {/* <Link
-                  href="/signin"
-                  className="hidden py-3 px-7 text-base font-bold text-dark hover:opacity-70 dark:text-white md:block"
-                >
-                  Sign In
-                </Link> */}
-              {/* <Link
-                  href="/signup"
-                  className="ease-in-up hidden rounded-md bg-primary py-3 px-8 text-base font-bold text-white transition duration-300 hover:bg-opacity-90 hover:shadow-signUp md:block md:px-9 lg:px-6 xl:px-9"
-                >
-                  Contact US
-                </Link> */}
-              {/* <div>
-                  <ThemeToggler />
-                </div> */}
-              {/* </div> */}
             </div>
           </div>
         </div>

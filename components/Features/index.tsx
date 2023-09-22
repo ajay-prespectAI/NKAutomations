@@ -40,7 +40,7 @@ const Features: React.FC<IProps> = ({ marginTop }) => {
                       }}
                     />
                   </div>
-                  <h3 className="mb-5 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                  <h3 className="mb-5 text-xl font-bold text-black hover:text-primary dark:text-white sm:text-2xl lg:text-xl  xl:text-2xl">
                     <Link href={each.linkHref}>{each.linkName}</Link>
                   </h3>
                   <p className="pr-[10px] text-base font-medium leading-relaxed text-body-color">

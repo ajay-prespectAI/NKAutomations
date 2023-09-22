@@ -24,6 +24,7 @@ module.exports = {
       red: "#FF0000",
     },
     screens: {
+      exs: "320px",
       xs: "450px",
       // => @media (min-width: 450px) { ... }
 

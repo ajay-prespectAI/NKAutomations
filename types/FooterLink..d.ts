@@ -12,6 +12,7 @@ declare namespace FooterNS {
     features?: string[];
     banner?: any;
     keyPoints?: IKeyPoints[];
+    carouselImages?: any[];
   }
 
   interface IKeyPoints {
@@ -22,6 +23,12 @@ declare namespace FooterNS {
   interface IAboutSectionOne {
     features?: string[];
     banner?: any;
+    keyPoints?: IKeyPoints[];
+    carouselImages?: string[];
+  }
+
+  interface IAboutSectionTwo {
+    imageSrc: string;
     keyPoints?: IKeyPoints[];
   }
 }

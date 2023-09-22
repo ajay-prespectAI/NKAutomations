@@ -35,14 +35,27 @@ const brandsData: Brand[] = [
     height: 90,
     width: 140,
   },
+  {
+    id: 5,
+    name: "",
+    href: "https://graygrids.com",
+    image: "/images/customers/5.jpeg",
+    height: 90,
+    width: 140,
+  },
+  {
+    id: 6,
+    name: "",
+    href: "https://graygrids.com",
+    image: "/images/customers/6.jpeg",
+    height: 140,
+    width: 200,
+  },
 ];
 
 const Brands = () => {
   return (
-    <section
-      // className="pt-16"
-      className="bg-white/[.03] py-16 md:py-20 lg:py-28"
-    >
+    <section className="bg-white/[.03] py-16 md:py-20 lg:py-28">
       <div className="container">
         <div
           className={`wow fadeInUp mx-auto w-full text-center`}

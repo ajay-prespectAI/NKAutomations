@@ -1,4 +1,7 @@
 import Image from "next/image";
+import { Carousel } from "react-responsive-carousel";
+
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -10,6 +13,7 @@ const AboutSectionOne: React.FC<FooterNS.IAboutSectionOne> = ({
   features,
   banner,
   keyPoints,
+  carouselImages,
 }) => {
   const List = ({ text, description }) => (
     <div className="w-100% mb-5 flex flex-row flex-wrap items-center gap-2">
@@ -25,29 +29,62 @@ const AboutSectionOne: React.FC<FooterNS.IAboutSectionOne> = ({
     </div>
   );
 
-  console.log({ banner });
-
   return (
     <section id="about">
       <div className="container">
-        <div className=" w-100%   flex-1  bg-primary bg-opacity-5 p-16">
-          <div
-            className="wow fadeInUp w-100% relative mx-auto aspect-[30/15] max-w-[1000px]  flex-1 bg-primary bg-opacity-5 pt-16"
-            data-wow-delay=".2s"
-            style={{
-              borderRadius: "20px",
-            }}
-          >
-            <Image
-              src={banner}
-              alt="about-image"
-              fill
-              className="mx-auto max-w-full lg:mr-0"
+        <div className=" w-100%   flex-1  ">
+          {carouselImages ? (
+            <div
+              className="wow fadeInUp w-100% relative mx-auto aspect-[30/20] max-w-[600px] flex-1  bg-black  bg-opacity-10 pt-16"
+              data-wow-delay=".2s"
               style={{
                 borderRadius: "20px",
               }}
-            />
-          </div>
+            >
+              <Carousel
+                autoPlay={true}
+                infiniteLoop={true}
+                showStatus={true}
+                showArrows={true}
+                showThumbs={true}
+                useKeyboardArrows={true}
+                swipeable={true}
+                emulateTouch={true}
+              >
+                {carouselImages.map((each, index) => {
+                  return (
+                    <Image
+                      src={each}
+                      alt="about-image"
+                      className="mx-auto max-w-full lg:mr-0"
+                      style={{
+                        minWidth: "100%",
+                        minHeight: "100%",
+                      }}
+                    />
+                  );
+                })}
+              </Carousel>
+            </div>
+          ) : (
+            <div
+              className="wow fadeInUp w-100% relative mx-auto aspect-[30/15] max-w-[1000px]  flex-1  bg-opacity-5 pt-16"
+              data-wow-delay=".2s"
+              style={{
+                borderRadius: "20px",
+              }}
+            >
+              <Image
+                src={banner}
+                alt="about-image"
+                fill
+                className=" mx-auto max-w-full"
+                style={{
+                  borderRadius: "20px",
+                }}
+              />
+            </div>
+          )}
         </div>
 
         <div style={{ marginTop: "60px" }}></div>
